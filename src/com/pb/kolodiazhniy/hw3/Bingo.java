@@ -1,11 +1,13 @@
 package com.pb.kolodiazhniy.hw3;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Bingo {
     public static void main(String[] args) {
+        Random random = new Random();
         int from = 0, to = 100;
-        int NUMBER = 33;
+        int NUMBER = random.nextInt(to + 1);
         int tries = 0;
         String exit = "exit";
         Scanner in = new Scanner(System.in);
