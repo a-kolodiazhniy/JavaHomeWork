@@ -8,7 +8,7 @@ public class Bingo {
         Random random = new Random();
         int from = 0, to = 100;
         int NUMBER = Math.abs(random.nextInt(to + 1));
-        System.out.println(NUMBER);
+        //System.out.println(NUMBER);
         int tries = 0;
         String exit = "exit";
         Scanner in = new Scanner(System.in);
