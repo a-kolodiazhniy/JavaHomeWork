@@ -40,7 +40,7 @@ public class Array {
     public static int positiveCount(int[] array) {
         int count = 0;
         for (int el : array) {
-            if (el >= 0) count++;
+            if (el > 0) count++;
         }
         return count;
     }
