@@ -8,7 +8,7 @@ public class VetСlinic {
         //Рефлексия
         Class сlazz = Class.forName("com.pb.kolodiazhniy.hw6.Veterinarian");
         Veterinarian veterinarian = null;
-        Constructor constr = сlazz.getConstructor(new Class[] {});
+        Constructor constr = сlazz.getConstructor();
         Object obj = constr.newInstance();
         if (obj instanceof Veterinarian) veterinarian = (Veterinarian) obj;
         //Штампуем животных
