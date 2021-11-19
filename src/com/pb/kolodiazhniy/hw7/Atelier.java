@@ -30,5 +30,6 @@ public class Atelier {
 
         dressMan(clothes);
         dressWoman(clothes);
+        System.out.println(2/0);
     }
 }
