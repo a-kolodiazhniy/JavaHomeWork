@@ -30,7 +30,7 @@ public class NumBox<T extends Number> {
         for (Number el : array) {
             sum = sum + el.doubleValue();
         }
-        return sum / array.length;
+        return sum / length();
     }
 
     public double sum() {
@@ -44,7 +44,7 @@ public class NumBox<T extends Number> {
     public T max() {
         double max = array[0].doubleValue();
         int maxIndex = 0;
-        for (int i = 1; i < array.length; i++) {
+        for (int i = 1; i < length(); i++) {
             double el = array[i].doubleValue();
             if (el > max) {
                 max = el;
