@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Пупкин Василий Иванович",
+    "dateOfBirth": {
+      "year": 1987,
+      "month": 5,
+      "day": 23
+    },
+    "phones": "+380991234567 +380957093989",
+    "address": "Дом дома и домом погоняет",
+    "modifyDate": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 9
+      },
+      "time": {
+        "hour": 2,
+        "minute": 51,
+        "second": 35,
+        "nano": 52000000
+      }
+    }
+  },
+  {
+    "name": "Инородный элемент, добавленный в файле JSON",
+    "dateOfBirth": {
+      "year": 1987,
+      "month": 5,
+      "day": 23
+    },
+    "phones": "+380991234567 +380957093989",
+    "address": "Дом дома и домом погоняет",
+    "modifyDate": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 9
+      },
+      "time": {
+        "hour": 2,
+        "minute": 51,
+        "second": 35,
+        "nano": 52000000
+      }
+    }
+  },
+  {
+    "name": "Васильев Пупк Пертович",
+    "dateOfBirth": {
+      "year": 1988,
+      "month": 1,
+      "day": 2
+    },
+    "phones": "+398784212454",
+    "address": "Город, улица и дом",
+    "modifyDate": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 9
+      },
+      "time": {
+        "hour": 2,
+        "minute": 51,
+        "second": 35,
+        "nano": 53000000
+      }
+    }
+  },
+  {
+    "name": "Грозный Иван Васильевич",
+    "dateOfBirth": {
+      "year": 1530,
+      "month": 8,
+      "day": 25
+    },
+    "phones": "голубь",
+    "address": "Русь бабушка",
+    "modifyDate": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 9
+      },
+      "time": {
+        "hour": 2,
+        "minute": 51,
+        "second": 35,
+        "nano": 53000000
+      }
+    }
+  },
+  {
+    "name": "Еще 1 элемент ",
+    "dateOfBirth": {
+      "year": 1900,
+      "month": 1,
+      "day": 1
+    },
+    "phones": "+35",
+    "address": "Космос",
+    "modifyDate": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 9
+      },
+      "time": {
+        "hour": 3,
+        "minute": 32,
+        "second": 56,
+        "nano": 494000000
+      }
+    }
+  }
+]
