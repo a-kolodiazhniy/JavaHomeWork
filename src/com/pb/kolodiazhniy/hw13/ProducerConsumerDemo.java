@@ -56,12 +56,10 @@ public class ProducerConsumerDemo {
                 while (!buffer.isEmpty()) {
                     index++;
                     System.out.println();
-                    int cnt = 0;
 
-                    while (cnt < 5 && !buffer.isEmpty()) {
+                    while (!buffer.isEmpty()) {
                         System.out.println(index + ") " + getName() + " - " + buffer.get(0));
                         buffer.remove(0);
-                        cnt++;
                     }
                     try {
                         buffer.notify();
