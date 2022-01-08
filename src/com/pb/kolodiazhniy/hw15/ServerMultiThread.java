@@ -4,6 +4,7 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -32,9 +33,9 @@ public class ServerMultiThread {
                 String dataFromUser;
 
                 while ((dataFromUser = in.readLine()) != null) {
-                    System.out.println("in: " + dataFromUser);
+                    String now = LocalDateTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss"));
                     for (PrintWriter pw: writers) {
-                        pw.println(name + ": " + dataFromUser);
+                        pw.println(now + " " + dataFromUser);
                     }
                 }
             } catch (Exception ex) {
